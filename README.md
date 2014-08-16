@@ -5,6 +5,9 @@ gstack is a go (golang) package. From the godocs of gstack:
 
 >gstack answers the questions: What function am I in? What is the full path to the file? What is the line number? 
 
+#### Keywords
+gostack is used as a stack trace (stacktrace), backtrace (back trace), and callstack (call stack) debug tool.
+
 #### Install 
 ```bash
 go get github.com/aletheia7/gstack
