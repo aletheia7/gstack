@@ -1,9 +1,9 @@
-### gstack 
-gstack is a go (golang) package. From the godocs of gstack
+#### gstack 
+gstack is a go (golang) package. From the godocs of gstack:
 
-Package gstack provides methods to easily obtain the function name, file path, and line number of go code.
+>Package gstack provides methods to easily obtain the function name, file path, and line number of go code.
 
-gstack answers the questions: What function am I in? What is the full path to the file? What is the line number? 
+>gstack answers the questions: What function am I in? What is the full path to the file? What is the line number? 
 
 #### Install 
 ```bash
@@ -18,7 +18,7 @@ godoc gstack
 ```
 #### Example
 
-```golang
+```go
 stack1 := New() // Index: 2
 fmt.Println(stack1)
 stack2 := New_index(3) // Index: 3
