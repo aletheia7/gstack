@@ -32,3 +32,5 @@ fmt.Println(stack2)
 // Index: 3, Function: testing.runExample, File: /<ommitted path
 // ...>/go/src/pkg/testing/example.go, Line: 98
 ```
+
+![LGPL](lgplv3-147x51.png)
