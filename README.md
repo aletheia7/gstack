@@ -12,6 +12,10 @@ cd <gstack location>
 go test -v
 ```
 
+#### Documentation
+```bash
+godoc gstack
+```
 #### Example
 
 ```golang
