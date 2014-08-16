@@ -23,7 +23,6 @@ godoc gstack
 
 ```go
 package main
-
 import (
 	"fmt"
 	"gstack"
@@ -31,15 +30,32 @@ import (
 
 func main() {
 
-	stack1 := gstack.New() 			// Index: 2
+	buried()
+}
+
+func buried() {
+
+	lost()
+}
+
+func lost() {
+
+	stack1 := gstack.New()			// Index: 2
 	fmt.Println(stack1)
 
 	stack2 := gstack.New_index(3)	// Index: 3
 	fmt.Println(stack2)
 
-	// Index: 2, Function: gstack_test.Example, File: /<ommitted path ...>/go/src/gstack/gstack_test.go, Line: 27
-	// Index: 3, Function: testing.runExample, File: /<ommitted path  ...>/go/src/pkg/testing/example.go, Line: 98
+	stack3 := gstack.New_index(4)	// Index: 3
+	fmt.Println(stack3)
 }
+```
+```bash
+Output:
+
+Index: 2, Function: main.lost, File: /home/erik/go/src/t/t.go, Line: 19
+Index: 3, Function: main.buried, File: /home/erik/go/src/t/t.go, Line: 14
+Index: 4, Function: main.main, File: /home/erik/go/src/t/t.go, Line: 9
 ```
 
 ![LGPL](lgplv3-147x51.png)
