@@ -57,4 +57,4 @@ Index: 3, Function: main.buried, File: /<path ommitted>/src/t/t.go, Line: 14
 Index: 4, Function: main.main, File: /<path ommitted>/src/t/t.go, Line: 9
 ```
 
-![LGPL](lgplv3-147x51.png)
+![LGPL](http://www.gnu.org/graphics/lgplv3-147x51.png)
