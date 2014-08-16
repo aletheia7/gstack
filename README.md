@@ -22,7 +22,6 @@ godoc gstack
 #### Example
 
 ```go
-<<<<<<< HEAD
 package main
 import (
 	"fmt"
@@ -47,24 +46,12 @@ func lost() {
 	stack2 := gstack.New_index(3)	// Index: 3
 	fmt.Println(stack2)
 
-	stack3 := gstack.New_index(4)	// Index: 3
+	stack3 := gstack.New_index(4)	// Index: 4
 	fmt.Println(stack3)
 }
-=======
-stack1 := New() // Index: 2
-fmt.Println(stack1)
-stack2 := New_index(3) // Index: 3
-fmt.Println(stack2)
-
-// Index: 2, Function: gstack_test.Example, File: /<ommitted path
-// ...>/go/src/gstack/gstack_test.go, Line: 27
-// Index: 3, Function: testing.runExample, File: /<ommitted path
-// ...>/go/src/pkg/testing/example.go, Line: 98
->>>>>>> parent of de86130... readme
 ```
+##### Ouput
 ```bash
-Output:
-
 Index: 2, Function: main.lost, File: /<path ommitted>/src/t/t.go, Line: 19
 Index: 3, Function: main.buried, File: /<path ommitted>/src/t/t.go, Line: 14
 Index: 4, Function: main.main, File: /<path ommitted>/src/t/t.go, Line: 9
