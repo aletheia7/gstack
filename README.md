@@ -16,9 +16,7 @@ go test -v
 ```
 
 #### Documentation
-```bash
-godoc gstack
-```
+See: [godoc gstack](http://godoc.org/github.com/aletheia7/gstack)
 #### Example
 
 ```go
