@@ -10,7 +10,7 @@ go test -v
 ```
 
 #### Documentation
-[godoc gstack](http://godoc.org/github.com/aletheia7/gstack)
+[![](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/aletheia7/gstack) 
 #### Example
 
 ```go
