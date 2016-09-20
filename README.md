@@ -1,3 +1,5 @@
+[![](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/aletheia7/gstack) 
+
 #### gstack 
 gstack provides methods to easily obtain the function name, file path, and line number of go code.
 gstack answers the questions: What function am I in? What is the full path to the file? What is the line number? 
@@ -9,8 +11,6 @@ cd <gstack location>
 go test -v
 ```
 
-#### Documentation
-[![](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/aletheia7/gstack) 
 #### Example
 
 ```go
